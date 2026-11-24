@@ -71,3 +71,14 @@
         width: 300px;
     }
 }
+
+.input-wrapper input.input-error {
+    border: 1px solid red;
+}
+
+.error-message {
+    margin: 0.25rem 0 0;
+    font-size: 0.9rem;
+    color: red;
+    text-align: left;
+}

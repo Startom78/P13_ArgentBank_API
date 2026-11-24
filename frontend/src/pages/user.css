@@ -1,0 +1,98 @@
+.user-page {
+    min-height: 100%;
+    box-sizing: border-box;
+    background-color: #12002b;
+    padding: 1.5rem 0 4rem;
+}
+
+.user-header {
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.user-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.edit-button {
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #00bc77;
+    border: 2px solid #00bc77;
+    border-right-color: #01a368;
+    border-bottom-color: #01a368;
+    cursor: pointer;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 auto 2rem;
+    padding: 1.5rem;
+    border: 1px solid black;
+    background-color: #fff;
+    text-align: left;
+}
+
+.account-content-wrapper {
+    width: 100%;
+    flex: 1;
+}
+
+.account-title {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.account-amount {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.transaction-button {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 8px;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #00bc77;
+    border: 2px solid #00bc77;
+    border-right-color: #01a368;
+    border-bottom-color: #01a368;
+    cursor: pointer;
+}
+
+@media (min-width: 720px) {
+    .account {
+        flex-direction: row;
+    }
+
+    .account-content-wrapper.cta {
+        flex: 0;
+    }
+
+    .transaction-button {
+        width: 200px;
+    }
+}
